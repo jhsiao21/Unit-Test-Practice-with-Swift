@@ -19,6 +19,8 @@
 		02D22AB12B73B093005898B7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB02B73B093005898B7 /* APIClient.swift */; };
 		02D22AB32B73B79C005898B7 /* MoneyJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB22B73B79C005898B7 /* MoneyJudge.swift */; };
 		02D22AB52B73BAF6005898B7 /* MoneyJudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB42B73BAF6005898B7 /* MoneyJudgeTests.swift */; };
+		02D22AB72B73C80F005898B7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB62B73C80F005898B7 /* ViewModel.swift */; };
+		02D22AB92B73D08D005898B7 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB82B73D08D005898B7 /* ViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		02D22AB02B73B093005898B7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		02D22AB22B73B79C005898B7 /* MoneyJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyJudge.swift; sourceTree = "<group>"; };
 		02D22AB42B73BAF6005898B7 /* MoneyJudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyJudgeTests.swift; sourceTree = "<group>"; };
+		02D22AB62B73C80F005898B7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		02D22AB82B73D08D005898B7 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				02D22A8E2B73AFEB005898B7 /* Info.plist */,
 				02D22AB02B73B093005898B7 /* APIClient.swift */,
 				02D22AB22B73B79C005898B7 /* MoneyJudge.swift */,
+				02D22AB62B73C80F005898B7 /* ViewModel.swift */,
 			);
 			path = UnitTestPractice;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			children = (
 				02D22A972B73AFEB005898B7 /* UnitTestPracticeTests.swift */,
 				02D22AB42B73BAF6005898B7 /* MoneyJudgeTests.swift */,
+				02D22AB82B73D08D005898B7 /* ViewModelTests.swift */,
 			);
 			path = UnitTestPracticeTests;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 				02D22AB12B73B093005898B7 /* APIClient.swift in Sources */,
 				02D22A812B73AFE9005898B7 /* AppDelegate.swift in Sources */,
 				02D22AB32B73B79C005898B7 /* MoneyJudge.swift in Sources */,
+				02D22AB72B73C80F005898B7 /* ViewModel.swift in Sources */,
 				02D22A832B73AFE9005898B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +288,7 @@
 			files = (
 				02D22AB52B73BAF6005898B7 /* MoneyJudgeTests.swift in Sources */,
 				02D22A982B73AFEB005898B7 /* UnitTestPracticeTests.swift in Sources */,
+				02D22AB92B73D08D005898B7 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class APIClient {
+class APIClient : ViewModelDataProvider {
     
     public func fetchMyMoney(completion: @escaping (Result<Int, Error>) -> Void) {
         completion(.success(Int.random(in: -100...100)))
