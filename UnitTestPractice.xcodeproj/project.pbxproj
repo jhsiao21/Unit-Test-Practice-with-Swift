@@ -16,7 +16,9 @@
 		02D22A982B73AFEB005898B7 /* UnitTestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22A972B73AFEB005898B7 /* UnitTestPracticeTests.swift */; };
 		02D22AA22B73AFEB005898B7 /* UnitTestPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AA12B73AFEB005898B7 /* UnitTestPracticeUITests.swift */; };
 		02D22AA42B73AFEB005898B7 /* UnitTestPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AA32B73AFEB005898B7 /* UnitTestPracticeUITestsLaunchTests.swift */; };
-		02D22AB12B73B093005898B7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB02B73B093005898B7 /* File.swift */; };
+		02D22AB12B73B093005898B7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB02B73B093005898B7 /* APIClient.swift */; };
+		02D22AB32B73B79C005898B7 /* MoneyJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB22B73B79C005898B7 /* MoneyJudge.swift */; };
+		02D22AB52B73BAF6005898B7 /* MoneyJudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D22AB42B73BAF6005898B7 /* MoneyJudgeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,9 @@
 		02D22A9D2B73AFEB005898B7 /* UnitTestPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D22AA12B73AFEB005898B7 /* UnitTestPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticeUITests.swift; sourceTree = "<group>"; };
 		02D22AA32B73AFEB005898B7 /* UnitTestPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		02D22AB02B73B093005898B7 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		02D22AB02B73B093005898B7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		02D22AB22B73B79C005898B7 /* MoneyJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyJudge.swift; sourceTree = "<group>"; };
+		02D22AB42B73BAF6005898B7 /* MoneyJudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyJudgeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,8 @@
 				02D22A892B73AFEB005898B7 /* Assets.xcassets */,
 				02D22A8B2B73AFEB005898B7 /* LaunchScreen.storyboard */,
 				02D22A8E2B73AFEB005898B7 /* Info.plist */,
-				02D22AB02B73B093005898B7 /* File.swift */,
+				02D22AB02B73B093005898B7 /* APIClient.swift */,
+				02D22AB22B73B79C005898B7 /* MoneyJudge.swift */,
 			);
 			path = UnitTestPractice;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				02D22A972B73AFEB005898B7 /* UnitTestPracticeTests.swift */,
+				02D22AB42B73BAF6005898B7 /* MoneyJudgeTests.swift */,
 			);
 			path = UnitTestPracticeTests;
 			sourceTree = "<group>";
@@ -262,8 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D22A852B73AFE9005898B7 /* ViewController.swift in Sources */,
-				02D22AB12B73B093005898B7 /* File.swift in Sources */,
+				02D22AB12B73B093005898B7 /* APIClient.swift in Sources */,
 				02D22A812B73AFE9005898B7 /* AppDelegate.swift in Sources */,
+				02D22AB32B73B79C005898B7 /* MoneyJudge.swift in Sources */,
 				02D22A832B73AFE9005898B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D22AB52B73BAF6005898B7 /* MoneyJudgeTests.swift in Sources */,
 				02D22A982B73AFEB005898B7 /* UnitTestPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,8 +460,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,8 +487,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
